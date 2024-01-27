@@ -9,6 +9,23 @@ public class siwtch {
 		B=Integer.parseInt(JOptionPane.showInputDialog("Ingresa el ancho:"));
 		tw=Integer.parseInt(JOptionPane.showInputDialog("Ingresa espesor del alma:"));
 		tf=Integer.parseInt(JOptionPane.showInputDialog("Ingresa espesor del ala:"));
+		
+		double rz=H/B;
+		int i;
+		if (rz<1) {
+			i=1;
+		}
+		else {
+				i=2;
+			}
+		switch (i) {
+		case 1:
+			System.out.println("Aumenta la altura.");
+		case 2:
+			System.out.println("Dimension correcta.");
+			
+		
+		}
 	}
 
 }
