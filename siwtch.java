@@ -24,8 +24,8 @@ public class siwtch {
 		case 2:
 			System.out.println("Dimension correcta.");
 			
-		
 		}
 	}
+	
 
 }
